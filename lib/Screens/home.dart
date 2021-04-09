@@ -213,7 +213,10 @@ class _HomeState extends State<Home> {
                   builder: (context, snapshot) {
                     return snapshot.hasData
                         ? CarouselSlider(
-                            options: CarouselOptions(height: 320.0),
+                            options: CarouselOptions(
+                              height: 330.0,
+                              enlargeCenterPage: true,
+                            ),
                             items: snapshot.data.map<Widget>((item) {
                               return Builder(
                                 builder: (BuildContext context) {

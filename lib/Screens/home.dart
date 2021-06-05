@@ -183,7 +183,12 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                           ),
                           FlatButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Coming_Soon()));
+                            },
                             child: Text(
                               'Rent',
                               style: TextStyle(

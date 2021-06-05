@@ -16,10 +16,10 @@ class Body extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Image.asset(
-          "./assets/images/conceptrart.png",
-          //fit: BoxFit.cover,
-        ), //Categories(),
+        // Image.asset(
+        //   "./assets/images/conceptart.png",
+        //   //fit: BoxFit.cover,
+        // ), //Categories(),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),

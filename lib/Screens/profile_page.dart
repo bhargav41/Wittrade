@@ -84,8 +84,8 @@ class ProfileUI2 extends StatelessWidget {
                       height: 15,
                     ),
                     Card(
-                      margin:
-                          EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
+                      margin: EdgeInsets.symmetric(
+                          horizontal: 22.0, vertical: 10.0),
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Row(
@@ -108,7 +108,7 @@ class ProfileUI2 extends StatelessWidget {
                                     "${snapshot.data.phoneNumber}",
                                     style: TextStyle(
                                         color: Colors.black,
-                                        fontSize: 18.0,
+                                        fontSize: 17.0,
                                         fontWeight: FontWeight.w300),
                                   )
                                 ],
@@ -131,7 +131,7 @@ class ProfileUI2 extends StatelessWidget {
                                     "${snapshot.data.email}",
                                     style: TextStyle(
                                         color: Colors.black,
-                                        fontSize: 18.0,
+                                        fontSize: 17.0,
                                         fontWeight: FontWeight.w300),
                                   )
                                 ],
